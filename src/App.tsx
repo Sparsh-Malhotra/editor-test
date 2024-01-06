@@ -158,7 +158,7 @@ function App() {
   };
 
   const handleReturn = (
-    e: KeyboardEvent<{}>,
+    _e: KeyboardEvent<{}>,
     editorState: EditorState
   ): DraftHandleValue => {
     const contentState = editorState.getCurrentContent();
